@@ -1,0 +1,75 @@
+/* PC */
+@media (min-width: 60.875em) {
+
+}
+
+/* TABLET */
+@media (max-width: 60.8125em) and (min-width: 46.25em) {
+    /* CODE CHUNG */
+    .m-col-haft {
+        width: 50%;
+    }
+
+    #slider {
+        padding-top: 84%;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 46.1875em) {
+    /* CODE CHUNG */
+    .s-col-full {
+        width: 100%;
+    }
+
+    .nav li a {
+        padding: 19px 18px;
+    }
+
+    .nav .nav-list {
+        display: none;
+    }
+
+    .nav .menu-header {
+        display: block;
+    }
+
+    #slider {
+        padding-top: 168%;
+    }
+
+    .slider-text .slider-header {
+        font-size: 36px;
+        line-height: 1.8;
+        margin-bottom: 10px;
+    }
+
+    .slider-text .slider-des {
+        line-height: 1.8;
+        margin-bottom: 30px;
+    } 
+
+    .feedback  {
+        display: block;
+        padding: 40px;
+        line-height: 1.8;
+        height: auto;
+    }
+
+    .tech-list img {
+        display: block;
+    }
+
+    .contact-form .contact-input {
+        font-size: 18px;
+    }
+
+    .contact-form .contact-btn {
+        width: 100%;
+        padding: 18px 25px;
+    }
+
+    .return-top a {
+        padding: 15px 22px;
+    }
+}
