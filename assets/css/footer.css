@@ -1,0 +1,51 @@
+/* CONTACT */
+.contact-section {
+    padding: 0 16px;
+}
+
+.contact-section > .content-section {
+    padding-bottom: 50px;
+}
+
+.contact-content {
+    margin-top: 0;
+    text-align: initial;
+}
+
+.contact-info p{
+    margin-top: 4px;
+}
+
+.content-header {
+    display: flex;
+    justify-content: center;
+    color: var(--primary);
+}
+
+/* FOOTER */
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #e9e2d5;
+    padding: 64px;
+    text-align: center;
+
+}
+
+.social-list i {
+    color: var(--primary);
+    font-size: 24px;
+    padding: 5px;
+    display: inline-block;
+    width: 45px;
+}
+
+.copyright {
+    color: #fff;
+    font-size: 15px;
+}
+
+.copyright a:hover {
+    color: #4CAF50 !important;
+}

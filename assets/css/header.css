@@ -1,0 +1,148 @@
+#header {
+    /* height: 100px; */
+    color: #828282;
+    background: #fff;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    font-size: 15px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 80px;
+    padding: 21px 15px;
+    height: 100%;
+}
+
+.nav .logo-header{
+    display: inline-block;
+}
+
+.nav .logo-header a {
+    display: inline-block;
+    letter-spacing: 4px;
+}
+
+.nav li{
+    display: inline-block;
+    margin: 0 -4px;
+}
+
+.nav a:hover {
+    color: var(--hover);
+}
+
+.nav li a {
+    display: inline-block;
+    padding: 21px 18px;
+}
+
+.nav .nav-list {
+    float: right;
+}
+
+.nav a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.nav .menu-header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 19px 20px;
+    display: none;
+}
+
+.nav .menu-header:hover {
+    color: var(--hover);
+}
+
+.authen {
+    display: flex;
+    align-items: center;
+}
+
+.authen .search-box {
+    border: none;
+    outline: none;
+    height: 36px;
+    font-size: 16px;
+}
+
+.authen .seach-container {
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+
+.search-icon {
+    font-size: 16px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.authen .authen-btn {
+    font-size: 18px;
+    color: var(--primary);
+    cursor: pointer;
+}
+
+.authen .login {
+    margin-left: 20px;
+    margin-right: 8px;
+}
+
+.authen .register {
+    margin-left: 8px;
+    margin-right: 20px;
+}
+
+/* MENU PRODUCT */
+.menu-product-container {
+    position: relative;
+}
+
+.menu-product {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    z-index: 10;
+    background-color: #fff;
+    border: solid 1px #d5c3aa;
+    
+    max-width: 240px;
+    width: 250px;
+    padding: 10px 15px;
+}
+
+.nar:hover + .menu-product,
+.menu-product:hover {
+    display: block !important;
+}
+
+.menu-product .menu-product-item {
+    font-size: 18px;
+    width: 100%;
+    line-height: 26px;
+    padding: 6px;
+    border-bottom: solid 1px #ddd;
+}
+
+.menu-product .menu-product-item:last-child {
+    border-bottom: none;
+}
+
+.menu-product .menu-product-item a {
+    padding: 0;
+}
+
+.menu-product .menu-product-item:hover {
+    cursor: pointer;
+    color: var(--hover);
+}

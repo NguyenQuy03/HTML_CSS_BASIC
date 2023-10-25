@@ -1,0 +1,114 @@
+#content {
+    margin: 60px 80px;
+    display: flex;
+    justify-content: center;
+    min-height: 240px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--primary);
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    min-height: 360px;
+    width: 100%;
+    background-color: #fbfbfb;
+    margin-top: 12px;
+    font-size: 18px;
+}
+
+.product-detail {
+    display: flex;
+    flex-direction: row;
+}
+
+.product-image {
+    width: 400px;
+}
+
+.product-quantity {
+    line-height: 24px;
+    padding: 5px 10px;
+    margin: 0 12px;
+    outline: none;
+    font-size: 16px;
+}
+
+.submit-btn {
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    color: #fff;
+    background-color: green;
+    cursor: pointer;
+}
+
+.submit-btn i {
+    font-size: 18px;
+    margin-right: 6px;
+}
+
+.product-relevant {
+    margin-top: 20px;
+}
+
+.member-list {
+    margin-top: 48px;
+}
+
+.member-list .member-item{
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.member-list .member-item:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.member-list img{
+    height: 260px;
+    width: 100%;
+}
+
+.member-list .member-body{
+   text-align: initial;
+   padding: 20px 16px;
+   
+    height: 156px;
+    display: flex;
+    flex-direction: column;
+}
+
+.member-list .member-body .dark {
+    font-size: 16px;
+}
+
+.member-list .member-name {
+   font-size: 24px;
+   font-weight: 100;
+}
+
+.member-list .member-job {
+    color: #757575;
+}
+
+.member-list .member-btn {
+    border: none;
+    padding: 12px 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    font-size: 15px;
+}
+
+.member-list .member-btn:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
